@@ -310,6 +310,7 @@ img {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  fill: var(--logo-footer);
 }
 
 .social-link:hover,
@@ -380,7 +381,8 @@ img {
   display: block;
 }
 
-.portfolio-list-item .link:hover {
+.portfolio-list-item .link:hover,
+.portfolio-list-item .link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -414,10 +416,11 @@ img {
 
 .flex-container {
   display: flex;
+  gap: 120px;
+  align-items: baseline;
 }
 
 .footer-social {
-  margin-left: 120px;
   color: var(--main-white-color);
   font-weight: 500;
 }
@@ -435,6 +438,10 @@ img {
 .footer-social-icons {
   display: flex;
   gap: 16px;
+}
+
+.footer-social-ico {
+  fill: var(--logo-footer);
 }
 
 .footer-social-links {
