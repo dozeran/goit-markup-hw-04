@@ -347,6 +347,7 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--customers-gray);
+  height: 100%;
 }
 
 .customers-link:hover,
